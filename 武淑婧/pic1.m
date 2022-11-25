@@ -4,7 +4,7 @@ for i=1:5
     a=arr(i);
     figure(1)
     subplot(1,5,i)
-    [t,y]=ode45(@(t,y)func(t,y,T1,T2,a,b,c,F,R1,R2,L,R3,R4,R5,C1,C2,M,d,e),[0 50],[0.5 0.5 0.5]);
+    [t,y]=ode45(@(t,y)func(t,y,T1,T2,a,b,c,F,R1,R2,L,R3,R4,R5,C1,C2,M,d,e),[0 10],[0.5 0.5 0.5]);
     plot_handles=plot(t,y(:,1),'r*',t,y(:,2),'g<',t,y(:,3),'b+');
     legend(plot_handles,'政府','平台','消费者','Location','best')
     s=['a=',num2str(arr(i))];
