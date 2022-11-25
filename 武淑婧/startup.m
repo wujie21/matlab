@@ -5,3 +5,4 @@ set(0,'defaultAxesFontName', '<楷体>')
 %set(0,'DefaultTextFontSize',12); % 设置字体大小为12
 %set(0,'DefaultAxesFontName','<FontName>'); % 设置轴的字体为'Script'
 %set(0,'DefaultAxesFontSize',12); % 设置坐标轴的字体大小为12
+%
